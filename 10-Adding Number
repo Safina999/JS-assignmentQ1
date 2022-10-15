@@ -7,7 +7,7 @@ let myName = "Safina Raziq Shamsi";
 let myAge = 28
 
 /* Printing the string that is printing my name and age. */
-console.log ('My Name is ${myName} and my age is ${myage}'); 
+console.log ("My Name is ${myName} and my age is ${myage}"); 
 
 
 /* Creating a new h4 element and appeding it to the body of the document. */

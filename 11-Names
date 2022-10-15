@@ -1,0 +1,14 @@
+//Q 11 Names : store the names of few friends in a array called names. 
+
+let names = ["Farah", "Hina", "zain", "hamza"];
+
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+console.log(names[3]);
+
+//method 2 (Advanced)
+names.forEach((item) => {
+    console.log(item);
+});
+

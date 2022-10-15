@@ -1,0 +1,10 @@
+//Q5 Famous Quote 2:Repeat Exersise 4, but this time store the famous person's name
+
+var f=("Hazrat Ali once said,the world can not defeat you untill you accept the defeat")
+console.log(f)
+
+
+let famous_person = "Hazrat Ali";
+let message = "Hazrat Ali once said,the world can not defeat you untill you accept the defeat";
+console.log('&{famous_person} once said, "${message}"');
+

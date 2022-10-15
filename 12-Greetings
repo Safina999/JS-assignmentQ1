@@ -1,0 +1,14 @@
+//Q12 greetings: Start with array you used in exersise 11
+
+let names = ["Farah", "Hina", "zain", "hamza"];
+
+console.log('${names[0]} is my best friend');
+console.log('${names[1]} is my best friend');
+console.log('${names[2]} is my best friend');
+console.log('${names[3]} is my best friend');
+
+
+// Method2 (Advanced)
+let newArray = names.map((friend) => '${friend} is my best friend');
+let newStrings = newArrray.join(",\n");
+console.log(newStrings);

@@ -1,0 +1,70 @@
+// Q 24 More conditional tests: you dont have to limit the number of tests you creat to 10, if you want to try more comparisons, write more tests. have atleast one false result for each of the following:
+
+let myName = "Safina";
+let age = 25;
+let height = 5.8;
+let nationality = "pakistani";
+let city = "karachi";
+let hobby = "traveling";
+let favFood = "BeefQorma";
+let favGame = "videogame";
+let favColor = "red";
+let favDress = "PJ";
+
+
+//.Tests for equality and inequality with strings
+
+let NameTest = myName == "safina"  ? true : false:
+
+
+//.Tests using lower case function
+
+let nationalityTest = nationality == "pakistani"  ? true : false:
+
+//.Numerical tests involving eqality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+
+let ageTest = age === 25  ? true : false:
+
+let ageTest1 = age === 26  ? true : false:
+
+let ageTest2 = age > 25  ? true : false:
+
+let ageTest3 = age < 25  ? true : false:
+
+let ageTest4 = age >= 25  ? true : false:
+
+let ageTest5 = age <= 25  ? true : false:
+
+
+
+//.Test using "and" and "or" operators
+
+let heightTest = height === 5.8 || 5.8 ? true : false:
+
+let heightTest1 = height === 5.7 && age ===26  ? true : false:
+
+
+//.Test whether an item is in a array
+
+let cityTest = city.includes("karachi")  ? true : false:
+
+
+//.Test whether an item is not in a array
+
+let cityTest1 = !city.includes("karachi")  ? true : false:
+
+
+console.log(NameTest);
+console.log(ageTest);
+console.log(ageTest1);
+console.log(ageTest2);
+console.log(ageTest3);
+console.log(ageTest4);
+console.log(heightTest);
+console.log(heightTest1);
+console.log(ageTest3);
+console.log(ageTest4);
+console.log(nationalityTest);
+console.log(cityTest);
+console.log(cityTest1);
+

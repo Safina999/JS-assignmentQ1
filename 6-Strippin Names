@@ -1,0 +1,5 @@
+//Q6 store aperson name, include whitespace charecters at the beginnig and end of the name. make sure you use each charecter combiation, "\t" ans "\n"
+var g="safina"
+var h="shamsi"
+console.log("" + g +'\n" +h')
+

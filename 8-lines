@@ -1,0 +1,7 @@
+//Q8 you should creat four lines that look like this
+
+console.log(4+4)
+console.log(4*4)
+console.log(4/4)
+console.log(4-4)
+

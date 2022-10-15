@@ -1,0 +1,28 @@
+
+
+//Q3=- tore aperson's name in a variable,and then print that person's name in lowercase, upercase, and titlecase
+var b="Safina Shamsi"
+var c=b.toLowerCase()
+console.log(c)
+
+var d="safina shamsi"
+var e=d.toUpperCase()
+console.log(e)
+
+// name in titlecase
+var my_name = "safina";
+
+//dividing name safina into two parts ( s and affina ) by using slice() function
+var separating_name = my_name.slice(1);
+crossOriginIsolated.log(separating_name);
+
+//getting first letter of name safina with chartAt() function
+var firstletter= my_name .charAt(0);
+
+// capitalizing first letter of safina
+var capatilize_First_Letter = firstletter.toUpperCase();
+console.log(capatilize_First_Letter);
+
+//concatination 
+var final = capatilize_First_Letter + separating_name;
+console.log(final);

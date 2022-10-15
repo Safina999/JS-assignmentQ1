@@ -1,0 +1,28 @@
+//Q13 Your Own ArryFavorit mode of transportations
+letArray = ["R6", "bmw", "jetsky", "jet"];
+/* the bellow code is using the map function to itreat the favArray and a new array with the value of the favArray added with the stringsin the switch statmet. */
+let result = favArray.map((item) => {
+    switch (item) {
+        case "motorcycle":
+            return "i go to university on a R6";
+            break;
+            case "bmw":
+                return "my dream is to buy a  new bmw car";
+                break;
+                case "jetsky":
+                    return "i drove jetsky in attabad lake";
+                    break;
+                    case "jet":
+                        return "my dream is to fly a fighter jet"
+                        break;
+                        default:
+
+    }
+})
+
+/* the join () mthod creates and returns a new string by concentrating all of the elements in an array, separated by commas or a separator string . if the array has only one item,
+then that item will be returned without using the separator.*/
+let finalString = result.join(".\n");
+console.log(finalStrings);
+
+

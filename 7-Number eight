@@ -1,0 +1,7 @@
+//Q7 number eight addition,subtraction,multiplication, and division
+
+console.log("4+4=" , "4+4")
+console.log("4*4=" , "4*4")
+console.log("4/4=" , "4/4")
+console.log("4-4=" , "4-4")
+

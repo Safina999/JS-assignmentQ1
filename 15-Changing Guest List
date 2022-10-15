@@ -1,0 +1,33 @@
+//Q15 Changing Guest List You Just Hear that one of your guestscant make the diner.so you need to send new invitations.
+//.Start with your program rom exersise 14. add aprint statement at the end o your program stating the name of guest.
+//.modify your list, replacing name
+//.Print a cecond set of invitation mesages, one for each person who is stillin your list.
+
+let guests = ["shahana", "zain", "riffat"];
+let invitations = guests.map((item) => {
+    return '${item} you are invited to the dinner tonight';
+});
+
+console.log(invitations.join("\n"));
+
+//.Start with your program rom exersise 14. add aprint statement at the end o your program stating the name of guest.
+
+console.log('${guests[1]} is not avaiable for the dinner');
+
+//.modify your list, replacing name
+
+guests[1] = "asim";
+
+//.Print a cecond set of invitation mesages, one for each person who is stillin your list.
+
+let newInvitations = guests.map((item) => {
+    return '${item} you are invited to the diner tonight' ;
+
+});
+
+console.log(newInvitations.join("\n"));
+
+
+
+
+

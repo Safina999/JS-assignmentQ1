@@ -1,0 +1,4 @@
+//Q9 store your favorite number
+let favnum = 9;
+console.log("my fsvorite number is" + favnum)
+

@@ -1,0 +1,18 @@
+//Q10 Adding comments
+
+/*using template literals to print the string that is printing my name and age
+
+/* Declaring variables and assigning value to them. */
+let myName = "Safina Raziq Shamsi";
+let myAge = 28
+
+/* Printing the string that is printing my name and age. */
+console.log ('My Name is ${myName} and my age is ${myage}'); 
+
+
+/* Creating a new h4 element and appeding it to the body of the document. */
+let text = document.createElement("h4");
+
+text.innerText = 'My name is ${myName} and my Age is $ {myAge}';
+document.body.appendChild(text)
+

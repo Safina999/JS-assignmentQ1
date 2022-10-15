@@ -1,0 +1,10 @@
+//Q 20 Think of some thing you could store in a array. for example , you could make a list of mountains, rivers, countries , cites ,languages, or anything eles you'd lie. write a program that creates a list containing these items.
+
+let list = [];
+let creatlist = (,,,a) => {
+    list.push(,,,a);
+};
+creatlist("pakistan", "attabadLake", "karachi", "urdu");
+console.log(list);
+
+

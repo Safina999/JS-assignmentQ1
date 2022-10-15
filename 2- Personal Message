@@ -1,0 +1,3 @@
+// Q2- store the person's name in a variable
+var a="Safina Raziq Shamsi";
+console.log(a);
